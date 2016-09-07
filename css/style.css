@@ -20,7 +20,8 @@ h6 {
 
 .education-entry,
 .work-entry,
-.project-entry {
+.project-entry,
+.online-entry {       /* PW added this line */
   padding: 0 5%;
 }
 
@@ -156,8 +157,11 @@ ul {
   display: none;
 }
 
+/* Added width and heigth here to format pics under projects */
 img {
   padding: 10px;
+  width: 200px;
+  height: auto;
 }
 
 span {

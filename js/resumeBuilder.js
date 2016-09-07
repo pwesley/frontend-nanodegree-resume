@@ -90,7 +90,7 @@
 			$(".education-entry:last").append(formattedschoolDates);
 			var formattedschoolLocation = HTMLschoolLocation.replace("%data%",education.schools[index].location);
 			$(".education-entry:last").append(formattedschoolLocation);
-			for (major in education.schools[index].majors) {
+			for (var major in education.schools[index].majors) {
 				var delimiter = ", ";
 				if (major == 0) {
 					var majorString = education.schools[index].majors[major];
